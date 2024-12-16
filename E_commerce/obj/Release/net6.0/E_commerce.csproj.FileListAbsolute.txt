@@ -1,0 +1,205 @@
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/appsettings.Development.json
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/appsettings.json
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.staticwebassets.runtime.json
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/E_commerce
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.deps.json
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.runtimeconfig.json
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.pdb
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Humanizer.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Data.SqlClient.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Identity.Client.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.Drawing.Common.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.Runtime.Caching.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.Security.Permissions.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/System.Windows.Extensions.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hamza/Projects/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.AssemblyReference.cache
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.AssemblyInfoInputs.cache
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.AssemblyInfo.cs
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.CoreCompileInputs.cache
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.MvcApplicationPartsAssemblyInfo.cache
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.RazorAssemblyInfo.cache
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.RazorAssemblyInfo.cs
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.build.json
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.development.json
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.E_commerce.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.build.E_commerce.props
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.E_commerce.props
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.E_commerce.props
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.pack.json
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/bundle/E_commerce.styles.css
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/projectbundle/E_commerce.bundle.scp.css
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.dll
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/refint/E_commerce.dll
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.pdb
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.genruntimeconfig.cache
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/ref/E_commerce.dll
+/Users/hamza/Projects/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.CopyComplete
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/appsettings.Development.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/appsettings.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.staticwebassets.runtime.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.staticwebassets.endpoints.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.deps.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.runtimeconfig.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.pdb
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Humanizer.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Data.SqlClient.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Identity.Client.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Drawing.Common.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Runtime.Caching.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Security.Permissions.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Windows.Extensions.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.AssemblyReference.cache
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.AssemblyInfoInputs.cache
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.AssemblyInfo.cs
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.CoreCompileInputs.cache
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.MvcApplicationPartsAssemblyInfo.cache
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.RazorAssemblyInfo.cache
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.RazorAssemblyInfo.cs
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.sourcelink.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/bundle/E_commerce.styles.css
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/projectbundle/E_commerce.bundle.scp.css
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.build.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.development.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.build.endpoints.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.E_commerce.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.E_commerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.build.E_commerce.props
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.E_commerce.props
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.E_commerce.props
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.pack.json
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.Up2Date
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/refint/E_commerce.dll
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.pdb
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.genruntimeconfig.cache
+/Users/hamza/Third Year/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/ref/E_commerce.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/appsettings.Development.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/appsettings.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.staticwebassets.runtime.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.deps.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.runtimeconfig.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.pdb
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Humanizer.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Data.SqlClient.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Identity.Client.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Drawing.Common.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Runtime.Caching.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Security.Permissions.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/System.Windows.Extensions.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.AssemblyReference.cache
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.AssemblyInfoInputs.cache
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.AssemblyInfo.cs
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.CoreCompileInputs.cache
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.MvcApplicationPartsAssemblyInfo.cache
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.RazorAssemblyInfo.cache
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.RazorAssemblyInfo.cs
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.E_commerce.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.build.E_commerce.props
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.buildMultiTargeting.E_commerce.props
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.buildTransitive.E_commerce.props
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.pack.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.build.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.development.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/bundle/E_commerce.styles.css
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/scopedcss/projectbundle/E_commerce.bundle.scp.css
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/refint/E_commerce.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.pdb
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.genruntimeconfig.cache
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/ref/E_commerce.dll
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/bin/Release/net6.0/E_commerce.staticwebassets.endpoints.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.sourcelink.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets.build.endpoints.json
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/staticwebassets/msbuild.E_commerce.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/hamza/Third Year/eee/Ecommerce/E_commerce/E_commerce/obj/Release/net6.0/E_commerce.csproj.Up2Date

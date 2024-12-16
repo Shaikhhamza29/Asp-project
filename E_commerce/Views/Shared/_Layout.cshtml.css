@@ -1,0 +1,174 @@
+﻿/* General Styling for Navbar */
+.navbar {
+    background: #ffffff; /* White background */
+    transition: all 0.3s ease;
+    padding: 10px 20px; /* Add padding for better spacing */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Add shadow to make navbar appear floating */
+}
+
+    .navbar:hover {
+        background: #ffffff; /* Keep white background on hover */
+    }
+
+/* Navbar Links Styling */
+.nav-link {
+    font-weight: 500;
+    padding: 10px 15px;
+    font-size: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Hover effect for nav links */
+    .nav-link:hover {
+        transform: translateY(-5px) scale(1.05); /* Slight movement upwards and scaling */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+    }
+
+    /* Active nav link (currently active item) */
+    .nav-link.active {
+        border-bottom: 3px solid #000000; /* Black underline for active link */
+    }
+
+/* Navbar Right Alignment */
+.navbar-nav.ms-auto {
+    margin-left: auto; /* Push the "Home" link to the right */
+}
+
+/* Add some spacing between items */
+.navbar-nav .nav-item {
+    margin-left: 20px; /* Space between navbar items */
+}
+
+/* Navbar Toggler Icon */
+.navbar-toggler-icon {
+    background-color: #000000; /* Toggler icon black */
+}
+
+/* Navbar Links with Individual Hover Effects */
+.navbar-nav .nav-item {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+    .navbar-nav .nav-item:hover {
+        z-index: 1; /* Bring the hovered item above others */
+    }
+
+    /* Active Link Styling */
+    .navbar-nav .nav-item.active {
+        transform: translateY(-8px) scale(1.1); /* Increase size and shift on active */
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Add shadow to active item */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+/* Form Container */
+form {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Add tower effect when the form is hovered or focused */
+    form:hover {
+        transform: translateY(-10px); /* Slight movement upwards */
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Larger shadow when hovered */
+    }
+
+/* Form Label Styling */
+.form-label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Input field styling */
+input[type="text"], input[type="password"] {
+    height: 45px;
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Focus effect for input fields */
+    input[type="text"]:focus, input[type="password"]:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+        outline: none;
+        transform: translateY(-3px); /* Shift input up slightly when focused */
+    }
+
+/* Styling for the submit button */
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+}
+
+    /* Hover effect for the submit button */
+    button[type="submit"]:hover {
+        background-color: #0056b3;
+        transform: translateY(-5px); /* Slight upward shift on hover */
+    }
+
+/* Styling for the "Sign Up" link */
+p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+    p a {
+        color: #007bff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+/* Responsive Styling */
+@media (max-width: 576px) {
+    .col-md-6 {
+        max-width: 100%;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    input[type="text"], input[type="password"], button[type="submit"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        background: #ffffff; /* Solid white background for small screens */
+    }
+
+    .navbar-toggler-icon {
+        background-color: #000000; /* Toggler icon black */
+    }
+
+    .navbar-nav {
+        margin-top: 10px; /* Space items a bit more */
+    }
+
+    .nav-link {
+        font-size: 1.2rem; /* Increase font size for mobile */
+        padding: 12px 20px;
+    }
+}

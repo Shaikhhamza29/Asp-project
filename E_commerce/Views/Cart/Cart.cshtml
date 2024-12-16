@@ -1,0 +1,257 @@
+﻿@model List<E_commerce.Controllers.CartItem>
+@using System.Globalization
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h2>Your Cart</h2>
+
+        @if (Model.Any())
+        {
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                        <th>Action</th> <!-- Added action column for Remove button -->
+                    </tr>
+                </thead>
+                <tbody id="cartItems">
+                    @foreach (var item in Model)
+                    {
+                        <tr id="item-@item.Id">
+                            <td>@item.ProductName</td>
+                            <td>₹@item.ProductPrice</td>
+                            <td>
+                                <!-- Quantity Control -->
+                                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="updateQuantity(@item.Id, -1)">-</button>
+                                <span id="quantity-@item.Id">@item.Quantity</span>
+                                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="updateQuantity(@item.Id, 1)">+</button>
+                            </td>
+                            <td>₹@(@item.ProductPrice * item.Quantity)</td>
+                            <td>
+                                <!-- Remove Button -->
+                                <button type="button" class="btn btn-danger btn-sm" onclick="removeItem(@item.Id)">Remove</button>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+
+            <!-- Total price of all products -->
+            <div class="text-end">
+                <h4>Total: <span id="totalAmount">@Model.Sum(item => item.ProductPrice * item.Quantity)</span></h4>
+            </div>
+
+            <!-- Delivery Section -->
+            <div class="mt-4">
+                <h4>Delivery Address</h4>
+                <form id="deliveryForm">
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Shipping Address</label>
+                        <textarea class="form-control" id="address" name="address" rows="3" placeholder="Enter your shipping address"></textarea>
+                    </div>
+
+                    <!-- Payment Method Section -->
+                    <div class="mb-3">
+                        <label for="paymentMethod" class="form-label">Choose Payment Method</label>
+                        <select class="form-select" id="paymentMethod" name="paymentMethod">
+                            <option value="creditCard" selected>Credit Card</option>
+                            <option value="upi">UPI</option>
+                        </select>
+                    </div>
+
+                    <!-- Credit Card Information (visible by default) -->
+                    <div id="creditCardInfo">
+                        <h5>Enter Credit Card Information</h5>
+                        <div class="mb-3">
+                            <label for="cardNumber" class="form-label">Card Number</label>
+                            <input type="text" class="form-control" id="cardNumber" placeholder="1234 5678 9012 3456">
+                        </div>
+                        <div class="mb-3">
+                            <label for="expiryDate" class="form-label">Expiration Date</label>
+                            <input type="text" class="form-control" id="expiryDate" placeholder="MM/YY">
+                        </div>
+                        <div class="mb-3">
+                            <label for="cvv" class="form-label">CVV</label>
+                            <input type="text" class="form-control" id="cvv" placeholder="123">
+                        </div>
+                    </div>
+
+                    <!-- UPI Information (hidden initially) -->
+                    <div id="upiInfo" class="d-none">
+                        <h5>Enter UPI Information</h5>
+                        <div class="mb-3">
+                            <label for="upiId" class="form-label">UPI ID</label>
+                            <input type="text" class="form-control" id="upiId" placeholder="yourname@upi">
+                        </div>
+                    </div>
+
+                    <!-- Total with Delivery -->
+                    <div class="text-end">
+                        <h4>Total with Delivery: <span id="totalWithDelivery">@Model.Sum(item => item.ProductPrice * item.Quantity)</span></h4>
+                    </div>
+
+                    <!-- Proceed to Pay Button -->
+                    <div class="text-end mt-4">
+                        <button type="button" id="proceedToPayBtn" class="btn btn-success">Proceed to Pay</button>
+                    </div>
+                </form>
+            </div>
+
+        }
+        else
+        {
+            <p>Your cart is empty!</p>
+        }
+    </div>
+
+    <!-- Bootstrap 5 JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>// Show/hide payment details based on payment method selection
+        document.getElementById("paymentMethod").addEventListener("change", function () {
+            var paymentMethod = this.value;
+
+            // Hide both UPI and Credit Card information by default
+            document.getElementById("creditCardInfo").classList.add("d-none");
+            document.getElementById("upiInfo").classList.add("d-none");
+
+            // Show relevant section based on the selected payment method
+            if (paymentMethod === "creditCard") {
+                document.getElementById("creditCardInfo").classList.remove("d-none");
+            } else if (paymentMethod === "upi") {
+                document.getElementById("upiInfo").classList.remove("d-none");
+            }
+        });
+
+        // Handle "Proceed to Pay" button click
+        document.getElementById("proceedToPayBtn").addEventListener("click", function () {
+            var address = document.getElementById("address").value.trim();
+            var paymentMethod = document.getElementById("paymentMethod").value;
+            var cardNumber = document.getElementById("cardNumber").value.trim();
+            var expiryDate = document.getElementById("expiryDate").value.trim();
+            var cvv = document.getElementById("cvv").value.trim();
+            var upiId = document.getElementById("upiId").value.trim();
+
+            // Check if delivery address is provided
+            if (address === "") {
+                alert("Please enter a shipping address.");
+                return;
+            }
+
+            // Validate based on payment method
+            if (paymentMethod === "creditCard") {
+                if (cardNumber === "" || expiryDate === "" || cvv === "") {
+                    alert("Please complete all the credit card details.");
+                    return;
+                }
+            } else if (paymentMethod === "upi") {
+                if (upiId === "") {
+                    alert("Please enter your UPI ID.");
+                    return;
+                }
+            }
+
+            // If validation passed, reset form and cart
+            document.getElementById("deliveryForm").reset();  // Reset all form fields
+
+            // Optionally clear the displayed cart as well (if needed)
+            document.querySelector("tbody").innerHTML = "";  // Clear the cart table
+
+            // Reset total amount
+            document.querySelector("#totalWithDelivery").innerHTML = "₹0.00";  // Set to 0 or a default value
+            document.querySelector("#totalAmount").innerHTML = "₹0.00";  // Reset the total amount as well
+
+            // Show success message
+            alert("Payment Done Suceesfully.");
+        });
+
+        // Function to remove an item from the cart
+        function removeItem(itemId) {
+            // Remove the item row from the table
+            var itemRow = document.getElementById('item-' + itemId);
+            itemRow.parentNode.removeChild(itemRow);
+
+            // Recalculate the total amount
+            updateTotal();
+        }
+
+        // Function to update the total amount after removal
+        function updateTotal() {
+            var totalAmount = 0;
+            var rows = document.querySelectorAll('#cartItems tr');
+
+            rows.forEach(function (row) {
+                var price = parseFloat(row.cells[1].textContent.replace('₹', '').trim());
+                var quantity = parseInt(row.cells[2].textContent.trim(), 10);
+                totalAmount += price * quantity;
+            });
+
+            document.getElementById('totalAmount').textContent = '₹' + totalAmount.toFixed(2);
+            document.getElementById('totalWithDelivery').textContent = '₹' + totalAmount.toFixed(2); // Update with delivery if needed
+        }
+        // Function to update the quantity of an item
+        function updateQuantity(itemId, change) {
+            var quantityElement = document.getElementById('quantity-' + itemId);
+            var currentQuantity = parseInt(quantityElement.textContent.trim(), 10);
+            var newQuantity = currentQuantity + change;
+
+            // Ensure that the quantity doesn't go below 1
+            if (newQuantity < 1) {
+                newQuantity = 1;
+            }
+
+            // Update the quantity displayed
+            quantityElement.textContent = newQuantity;
+
+            // Recalculate the total for that item
+            var itemRow = document.getElementById('item-' + itemId);
+            var price = parseFloat(itemRow.cells[1].textContent.replace('₹', '').trim());
+            var totalCell = itemRow.cells[3]; // Total for that item
+            totalCell.textContent = '₹' + (price * newQuantity).toFixed(2);
+
+            // Recalculate the overall total
+            updateTotal();
+        }
+
+        // Function to remove an item from the cart
+        function removeItem(itemId) {
+            // Remove the item row from the table
+            var itemRow = document.getElementById('item-' + itemId);
+            itemRow.parentNode.removeChild(itemRow);
+
+            // Recalculate the total amount
+            updateTotal();
+        }
+
+        // Function to update the total amount after any change
+        function updateTotal() {
+            var totalAmount = 0;
+            var rows = document.querySelectorAll('#cartItems tr');
+
+            rows.forEach(function (row) {
+                var price = parseFloat(row.cells[1].textContent.replace('₹', '').trim());
+                var quantity = parseInt(row.cells[2].querySelector('span').textContent.trim(), 10); // Use span to get quantity
+                totalAmount += price * quantity;
+            });
+
+            document.getElementById('totalAmount').textContent = '₹' + totalAmount.toFixed(2);
+            document.getElementById('totalWithDelivery').textContent = '₹' + totalAmount.toFixed(2); // Update with delivery if needed
+        }
+
+    </script>
+
+</body>
+</html>
